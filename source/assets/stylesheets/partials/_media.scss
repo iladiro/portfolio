@@ -1,0 +1,39 @@
+@media(max-width:767px){
+  .cd-timeline-col{
+    border-left: 0;
+  }
+  .cd-timeline{
+    margin-left: 35px;
+  }
+  .about{
+    .section-title{
+      margin: 60px 0 30px;
+      font-size: 30px;
+    }
+  }
+  // .navbar-header{
+  //   border-bottom: 1px solid #dddddd;
+  // }
+  .main-nav{
+    background-color: white;
+    .main-nav__link{
+      color: $main-color;
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width:991px){
+  .photo-frame{
+    display: none;
+  }
+}
+
+@media(min-width:992px){
+  .photo-frame{
+    @include rotate(7deg);
+  }
+}
+
+@media(min-width:1200px){
+}

@@ -1,0 +1,21 @@
+@mixin spaces($padding, $margin){
+  padding: $padding;
+  margin: $margin;
+}
+
+@mixin solid-border($size, $color){
+  border: $size solid $color;
+}
+
+@mixin font-face($size, $color){
+  font-size: $size;
+  color: $color;
+  font-weight: 300;
+}
+
+@mixin bg-size($size: cover){
+  -webkit-background-size: $size;
+  -moz-background-size: $size;
+  -o-background-size: $size;
+  background-size: $size;
+}

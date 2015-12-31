@@ -1,0 +1,34 @@
+prj:
+  #page: about-me-top-section
+  item_one:
+    title: "16 February 1988"
+    subtitle: "Born"
+    description: "I was born in Milan February 16, 1988."
+  item_two:
+    title: "From 2002 - 2007"
+    subtitle: "Hight School"
+    description: "I attended technical school ITSOS Albert Steiner in Milan. It's a school of multimedia communication, the which main school subjects are: Photography, Cinema, Informatic, 3D Graphic and 2D Graphic. I've wanted to focus more on Information and Graphic subject school."
+  item_three:
+    title: "From September 2007 to June 2008"
+    subtitle: "IT Course"
+    description: "I attended a Dinamic Website Course."
+  # end
+  #page: about-me-down-section
+  item_four:
+    title: "From January 2015"
+    subtitle: "Freelance"
+    description: "From January 2015 I am living in Manchester, to do practice with English Language. I am attending English school. I worked for BootstrapBay, I built a ecommerce template called KidStore."
+  item_five:
+    title: "From 2009 to 2014"
+    subtitle: "Contactlab"
+    description: "I worked at ContactLab (Digital direct email marketing) as HTML Developer. I built, tested and deployed email templates. My duty was to build Responsive landing pages and Survey forms as well."
+  item_six:
+    title: "From 2007 to 2010"
+    subtitle: "PrimaPagina"
+    description: "My first work's experience has been at Prima Pagina. My duty and responsibility was to build, test and release newsletters."
+  item_seven:
+    title: "View my curriculum..."
+    subtitle: "...and download it"
+    description: "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa."
+    text_link: "view"
+  #end

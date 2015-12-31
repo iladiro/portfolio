@@ -1,0 +1,47 @@
+<!-- About me Section -->
+<section class="about about-follow" data-highlight="#about-tab">
+  <div class="container">
+    <section class="clearfix">
+      <article class="col-md-6"></article>
+      <article class="col-md-6 cd-timeline-col padding">
+        <%= partial("partials/shared/timeline-block", locals: {
+                    icon: "fa fa-code",
+                    title: data.about.prj.item_four.title,
+                    subtitle: data.about.prj.item_four.subtitle,
+                    description: data.about.prj.item_four.description,
+                    text_link: nil,
+                    data_target: nil
+          })
+        %>
+        <%= partial("partials/shared/timeline-block", locals: {
+                    icon: "fa fa-code",
+                    title: data.about.prj.item_five.title,
+                    subtitle: data.about.prj.item_five.subtitle,
+                    description: data.about.prj.item_five.description,
+                    text_link: nil,
+                    data_target: nil
+          })
+        %>
+        <%= partial("partials/shared/timeline-block", locals: {
+                    icon: "fa fa-code",
+                    title: data.about.prj.item_six.title,
+                    subtitle: data.about.prj.item_six.subtitle,
+                    description: data.about.prj.item_six.description,
+                    text_link: nil,
+                    data_target: nil
+          })
+        %>
+        <%= partial("partials/shared/timeline-block", locals: {
+                    icon: "fa fa-file-text-o",
+                    title: data.about.prj.item_seven.title,
+                    subtitle: data.about.prj.item_seven.subtitle,
+                    description: data.about.prj.item_seven.description,
+                    text_link: data.about.prj.item_seven.text_link,
+                    data_target: "#curriculum"
+          })
+        %>
+      </article>
+    </section>
+  </div>
+</section>
+<!-- end -->

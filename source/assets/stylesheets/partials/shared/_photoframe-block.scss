@@ -1,0 +1,8 @@
+.photo-frame{
+  @include solid-border(10px, #ffffff);
+  @include box-shadow(0px 0px 8px rgba(0,0,0,0.5));
+  max-width: 370px;
+  .photo-frame__img{
+    max-width: 100%;
+  }
+}

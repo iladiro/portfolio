@@ -1,0 +1,61 @@
+.item{
+  position: relative;
+  margin-bottom: 30px;
+  display: block;
+  overflow: hidden;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  @at-root #{&}__image{
+    @include scale(1);
+    @include transition(transform 0.3s ease-out);
+  }
+  &:hover{
+    .item__image{
+      @include scale(1.3);
+    }
+  }
+  .hover-mask{
+    position:absolute;
+    padding:0;
+    @include size(100%, 100%);
+    top:0;
+    left:0;
+    background: $second-color;
+    @include opacity(0);
+    @include transition(all 0.3s ease-out);
+    .item__info{
+      margin-top: 23%;
+    }
+    .item__title{
+      @include font-face(17px, #ffffff);
+      margin-top: 0;
+      i{
+        margin-top: 5px;
+      }
+    }
+    &:after{
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: "";
+      @include size(100%, 100%);
+      @include opacity(0.8);
+      background: transparent;
+      @include solid-border(0px, rgba(255,255,255,0.2));
+      @include transition(border 0.3s ease-out);
+    }
+    &:hover{
+      &:after{
+        border-width: 20px;
+      }
+    }
+  }
+  &:hover{
+    .hover-mask{
+      @include opacity(0.9);
+      padding: 20px;
+    }
+  }
+}

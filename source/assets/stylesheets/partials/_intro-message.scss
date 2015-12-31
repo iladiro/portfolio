@@ -1,0 +1,17 @@
+#intro-message{
+  width: 90%;
+  background-color: #ffffff;
+  @include opacity(0.9);
+  @include spaces(20px 0, 300px auto 0);
+  &.jumbotron{
+    border-radius: 0;
+    p{
+      @include spaces(18px 0px 12px 0px, 0);
+      @include font-face(38px, $main-color);
+      line-height: 48px;
+      span{
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#works-section{
+  background-color: #ffffff;
+  padding-bottom: 80px;
+  .works-header{
+    background-color: #f5f5f5;
+    @include solid-border(1px, #dddddd);
+    @include spaces(60px 0 90px, 0 0 80px);
+    .section-title{
+      position: relative;
+      z-index: 1;
+      @include font-face(48px, $main-color);
+      span{
+        font-size: 150%;
+        font-weight: 400;
+      }
+      i{
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        z-index: -1;
+        margin-left: -36px;
+        font-size: 120px;
+        color: #ffffff;
+      }
+    }
+  }
+  .works-contents{
+
+  }
+}

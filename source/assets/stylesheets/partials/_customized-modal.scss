@@ -1,0 +1,25 @@
+.modal{
+  &.customized-modal{
+    background-color: white;
+    .modal-content{
+      border: none;
+      box-shadow: none;
+      .modal-header{
+        margin-bottom: 20px;
+        .modal-header__button{
+          font-size: 35px;
+        }
+      }
+      .modal-body{
+        .modal-body__title{
+          @include font-face(24px, $main-color);
+          margin-top: 0;
+        }
+        .modal-body__description{
+          @include font-face(19px, #6D6D85);
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+}

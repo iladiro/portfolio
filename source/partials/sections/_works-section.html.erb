@@ -1,0 +1,36 @@
+<!-- Works Section -->
+<section id="works-section" data-highlight="#works-tab">
+  <a id="works-link"></a>
+  <header class="works-header">
+    <div class="container">
+      <h1 class="section-title text-center text-uppercase bounceIn wow" data-wow-duration="1s" data-wow-delay="0s">
+        My <span>Works</span> <i class="fa fa-pencil"></i>
+      </h1>
+    </div>
+  </header>
+  <div class="works-contents">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-4">
+          <%= partial("partials/shared/work-block", :locals => {
+                      image_item: image_path("item2.jpg"),
+                      title_item: "SocialSharing",
+                      id_item: "#socialsharing-modal" }) %>
+        </article>
+        <article class="col-md-4">
+          <%= partial("partials/shared/work-block", :locals => {
+                      image_item: image_path("item4.jpg"),
+                      title_item: "LampWireless",
+                      id_item: "#lampwireless-modal" }) %>
+        </article>
+        <article class="col-md-4">
+          <%= partial("partials/shared/work-block", :locals => {
+                      image_item: image_path("item3.jpg"),
+                      title_item: "Ecommerce store",
+                      id_item: "#kidstore-modal" }) %>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  end  -->

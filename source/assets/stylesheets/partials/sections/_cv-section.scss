@@ -1,0 +1,10 @@
+.cv-section{
+  @at-root #{&}__icon{
+    @extend .cd-timeline__icon;
+    margin-left: 0;
+  }
+  @at-root #{&}__label{
+    border-bottom: 1px solid #dddddd;
+    @include spaces(15px 10px 30px 80px, 0 0 30px);
+  }
+}

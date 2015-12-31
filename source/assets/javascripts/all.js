@@ -1,0 +1,9 @@
+//= require vendor/jquery-1.11.3.min
+//= require vendor/jquery.easypiechart.min
+//= require vendor/jquery.backstretch.min
+//= require vendor/bootstrap.min
+//= require vendor/wow.min
+//= require vendor/waypoints
+//= require vendor/scroll-smooth
+//= require nav-behavior
+//= require main

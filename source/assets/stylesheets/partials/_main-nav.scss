@@ -1,0 +1,13 @@
+.main-nav{
+  .main-nav__link{
+    text-transform: uppercase;
+    @include font-face(18px, #ffffff);
+    @include transition(color 0.2s linear);
+    &:hover{
+      color: $main-color;
+    }
+    &:focus{
+      color: $main-color;
+    }
+  }
+}

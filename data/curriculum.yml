@@ -1,0 +1,71 @@
+prj:
+  education_training:
+    row_one:
+      label: "From September 2002 to July 2007"
+      title: "High school"
+      description: "High school leaving qualification in Multimedia Communication at ITSOS Milan"
+    row_two:
+      label: "From September 2007 to June 2008"
+      title: "Dynamic site course"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    row_three:
+      label: "From March 2015 to July 2015"
+      title: "ESOL course"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  works_experience:
+    row_one:
+      label: "From January 2015"
+      title: "Freelance"
+      description: "Build responsive templates based on Bootstrap"
+    row_two:
+      label: "From January 2011 to December 2014"
+      title: "ContactLab"
+      description: "Employee at ContactLab (Digital direct email marketing) as HTML Developer."
+    row_three:
+      label: "From January 2008 to December 2010"
+      title: "PrimaPagina"
+      description: "Employee at PrimaPagina as HTML Developer."
+  skills:
+    row_one:
+      label: "Languages:"
+      title:
+      description: "English"
+    row_two:
+      label: "OS:"
+      title:
+      description:
+        - MacOsx
+        - Windows
+    row_three:
+      label: "Programming languages:"
+      title:
+      description:
+        - HTML 4/5
+        - CSS 2/3
+        - JavaScript (basic level)
+    row_four:
+      label: "Framework:"
+      title:
+      description: "Middleman"
+    row_five:
+      label: "Html framework:"
+      title:
+      description: "Bootstrap 3"
+    row_six:
+      label: "Css framework:"
+      title:
+      description: "Bourbon"
+    row_seven:
+      label: "Javascript libraries:"
+      title:
+      description: "Jquery"
+    row_eight:
+      label: "Preprocessors:"
+      title:
+      description:
+        - SASS
+        - LESS
+    row_nine:
+      label: "Versioning tools:"
+      title:
+      description: "Git(basic level)"

@@ -1,0 +1,26 @@
+#header{
+  background: transparent;
+  @include transition(all 0.3s ease-out);
+  padding: 5px 0;
+  &.scrolled{
+    background-color: #ffffff;
+    @include solid-border(1px, #dddddd);
+    padding: 20px 0;
+    .main-nav{
+      .main-nav__link{
+        color: $main-color;
+        @include transition(all 0.2s ease-out);
+        &:hover{
+          color: #000000;
+        }
+        &.up{
+          background-color: #eeeeee;
+          // color: #000000;
+        }
+        &.active{
+          color: $second-color;
+        }
+      }
+    }
+  }
+}

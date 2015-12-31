@@ -1,0 +1,33 @@
+prj:
+  kidstore:
+    title: "KidStore - Ecommerce Template"
+    description: "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman."
+    technologies:
+      - HTML5
+      - CSS3
+      - SASS
+      - Javascript
+      - Jquery
+      - Middleman
+      - Bootstrap 3
+  socialsharing:
+    title: "SocialSharing"
+    description: "SocialSharing is a utility to help you to generate the mark up of a different social platform."
+    technologies:
+      - HTML5
+      - CSS3
+      - SASS
+      - Javascript
+      - Jquery
+      - Middleman
+      - Bourbon
+      - Neat
+  lampwireless:
+    title: "LampWireless"
+    description: "LampWireless is a website promoting an hardware device for impaired people."
+    technologies:
+      - HTML5
+      - CSS3
+      - LESS
+      - Javascript
+      - Jquery
