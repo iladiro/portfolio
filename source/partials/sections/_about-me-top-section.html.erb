@@ -2,14 +2,14 @@
 <section class="about" data-highlight="#about-tab">
   <a id="about-link"></a>
   <div class="container">
-    <%= partial("partials/shared/title-block", locals: { icon: "<i class='fa fa-user'></i>", title: "About me"}) %>
+    <%= partial("partials/shared/title-block", locals: { icon: "<i class='fa fa-user'></i>", title: 'About me' }) %>
     <section class="clearfix">
       <article class="col-md-6">
-        <%= partial("partials/shared/photoframe-block", locals: { photo: "me.jpg"}) %>
+        <%= partial("partials/shared/photoframe-block", locals: { photo: 'me.png', alt_text: 'avatar' }) %>
       </article>
       <article class="col-md-6 cd-timeline-col">
         <%= partial("partials/shared/timeline-block", locals: {
-                    icon: "fa fa-child",
+                    icon: 'fa fa-child',
                     title: data.about.prj.item_one.title,
                     subtitle: data.about.prj.item_one.subtitle,
                     description: data.about.prj.item_one.description,
@@ -18,7 +18,7 @@
           })
         %>
         <%= partial("partials/shared/timeline-block", locals: {
-                    icon: "fa fa-graduation-cap",
+                    icon: 'fa fa-graduation-cap',
                     title: data.about.prj.item_two.title,
                     subtitle: data.about.prj.item_two.subtitle,
                     description: data.about.prj.item_two.description,
@@ -27,7 +27,7 @@
           })
         %>
         <%= partial("partials/shared/timeline-block", locals: {
-                    icon: "fa fa-book",
+                    icon: 'fa fa-book',
                     title: data.about.prj.item_three.title,
                     subtitle: data.about.prj.item_three.subtitle,
                     description: data.about.prj.item_three.description,
