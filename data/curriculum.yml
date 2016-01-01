@@ -33,16 +33,11 @@ prj:
     row_two:
       label: "OS:"
       title:
-      description:
-        - MacOsx
-        - Windows
+      description: "MacOsx, Windows"
     row_three:
       label: "Programming languages:"
       title:
-      description:
-        - HTML 4/5
-        - CSS 2/3
-        - JavaScript (basic level)
+      description: "HTML 4/5, CSS 2/3, JavaScript (basic level)"
     row_four:
       label: "Framework:"
       title:
@@ -62,10 +57,8 @@ prj:
     row_eight:
       label: "Preprocessors:"
       title:
-      description:
-        - SASS
-        - LESS
+      description: "SASS, LESS"
     row_nine:
       label: "Versioning tools:"
       title:
-      description: "Git(basic level)"
+      description: "Git (basic level)"

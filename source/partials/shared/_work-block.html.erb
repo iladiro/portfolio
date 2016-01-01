@@ -1,12 +1,12 @@
-<button type="button" class="item" data-toggle="modal" data-target="<%= id_item %>">
-  <%= image_tag image_item, class: 'item__image img-responsive' %>
+<a href="" class="item" data-toggle="modal" data-target="<%= id_item %>">
+  <%= image_tag image_item, class: 'item__image img-responsive', alt: 'alt_text' %>
   <div class="hover-mask">
     <div class="item__info text-center">
       <h2 class="item__title text-uppercase">
         <%= title_item %><br>
         <i class="fa fa-minus"></i>
       </h2>
-      <%= image_tag 'ico-white-eye.png', width: '40px', alt: 'ico eye' %>
+      <%= image_tag 'ico-white-eye.png', width: '40', alt: 'ico eye' %>
     </div>
   </div>
-</button>
+</a>

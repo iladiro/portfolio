@@ -5,5 +5,8 @@
 //= require vendor/wow.min
 //= require vendor/waypoints
 //= require vendor/scroll-smooth
-//= require nav-behavior
+//= require portnav
+//= require portwow
+//= require portbackstretch
+//= require portchart
 //= require main

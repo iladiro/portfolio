@@ -11,6 +11,9 @@
         }
       }
       .modal-body{
+        .modal-body__image{
+          margin-bottom: 30px;
+        }
         .modal-body__title{
           @include font-face(24px, $main-color);
           margin-top: 0;
