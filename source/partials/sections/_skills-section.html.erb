@@ -4,16 +4,40 @@
   <div class="container">
     <div class="row">
       <article class="col-sm-6 col-md-3 text-center">
-        <%= partial("partials/shared/chart-block", locals: { percentage_text: '90', skill_name: 'html4/5' }) %>
+        <%= partial('partials/shared/chart-block',
+          locals: {
+            percentage_text: '90',
+            skill_name: 'html4/5'
+            }
+          )
+        %>
       </article>
       <article class="col-sm-6 col-md-3 text-center">
-        <%= partial("partials/shared/chart-block", locals: { percentage_text: '80', skill_name: 'css2/3' }) %>
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '80',
+              skill_name: 'css2/3'
+            }
+          )
+        %>
       </article>
       <article class="col-sm-6 col-md-3 text-center">
-        <%= partial("partials/shared/chart-block", locals: { percentage_text: '70', skill_name: 'jquery' }) %>
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '70',
+              skill_name: 'jquery'
+            }
+          )
+        %>
       </article>
       <article class="col-sm-6 col-md-3 text-center">
-        <%= partial("partials/shared/chart-block", locals: { percentage_text: '75', skill_name: 'SASS' }) %>
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '75',
+              skill_name: 'SASS'
+            }
+          ) 
+        %>
       </article>
     </div>
   </div>

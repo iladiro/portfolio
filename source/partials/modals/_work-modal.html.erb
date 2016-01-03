@@ -28,11 +28,15 @@
           </div>
         </div>
         <div class="text-center">
-          <%= partial("partials/shared/button-block", :locals => {
-                      link: link,
-                      classes: 'btn-lg text-uppercase button-block',
-                      icon: 'fa fa-external-link',
-                      text_link: 'view website' }) %>
+          <%= partial('partials/shared/button-block',
+              locals: {
+                link: link,
+                classes: 'btn-lg text-uppercase button-block',
+                icon: 'fa fa-external-link',
+                text_link: 'view website'
+              }
+            )
+          %>
         </div>
       </div>
     </div>

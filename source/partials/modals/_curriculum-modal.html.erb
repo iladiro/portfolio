@@ -6,141 +6,19 @@
         <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body">
-        <section class="cv-section">
-          <div class="cv-section__head">
-            <div class="cv-section__icon">
-              <i class="fa fa-book"></i>
-            </div>
-            <h2 class="cv-section__label text-uppercase">Education and training</h2>
-          </div>
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.education_training.row_one.label,
-                      title: data.curriculum.prj.education_training.row_one.title,
-                      description: data.curriculum.prj.education_training.row_one.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.education_training.row_two.label,
-                      title: data.curriculum.prj.education_training.row_two.title,
-                      description: data.curriculum.prj.education_training.row_two.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.education_training.row_three.label,
-                      title: data.curriculum.prj.education_training.row_three.title,
-                      description: data.curriculum.prj.education_training.row_three.description
-            })
-          %>
-
-        </section>
-        <section class="cv-section">
-          <div class="cv-section__head">
-            <div class="cv-section__icon">
-              <i class="fa fa-code"></i>
-            </div>
-            <h2 class="cv-section__label text-uppercase">Work experience</h2>
-          </div>
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.works_experience.row_one.label,
-                      title: data.curriculum.prj.works_experience.row_one.title,
-                      description: data.curriculum.prj.works_experience.row_one.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.works_experience.row_two.label,
-                      title: data.curriculum.prj.works_experience.row_two.title,
-                      description: data.curriculum.prj.works_experience.row_two.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.works_experience.row_three.label,
-                      title: data.curriculum.prj.works_experience.row_three.title,
-                      description: data.curriculum.prj.works_experience.row_three.description
-            })
-          %>
-
-        </section>
-        <section class="cv-section">
-          <div class="cv-section__head">
-            <div class="cv-section__icon">
-              <i class="fa fa-pencil"></i>
-            </div>
-            <h2 class="cv-section__label text-uppercase">Personal skills and competences</h2>
-          </div>
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_one.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_one.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_two.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_two.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_three.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_three.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_four.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_four.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_five.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_five.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_six.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_six.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_seven.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_seven.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_eight.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_eight.description
-            })
-          %>
-
-          <%= partial("partials/shared/cv-block", locals: {
-                      label: data.curriculum.prj.skills.row_nine.label,
-                      title: nil,
-                      description: data.curriculum.prj.skills.row_nine.description
-            })
-          %>
-
-        </section>
+        <%= partial('partials/modals/curriculum_sections/training') %>
+        <%= partial('partials/modals/curriculum_sections/works-experience') %>
+        <%= partial('partials/modals/curriculum_sections/skills') %>
         <div class="text-center">
-          <%= partial("partials/shared/button-block", :locals => {
-                      link: 'assets/pdf/cv-IlariaDiRosa.pdf',
-                      classes: 'btn-lg text-uppercase button-block',
-                      icon: 'fa fa-download',
-                      text_link: 'Download CV' }) %>
+          <%= partial('partials/shared/button-block',
+              locals: {
+                link: 'assets/pdf/cv-IlariaDiRosa.pdf',
+                classes: 'btn-lg text-uppercase button-block',
+                icon: 'fa fa-download',
+                text_link: 'Download CV'
+              }
+            )
+          %>
         </div>
       </div>
     </div>
