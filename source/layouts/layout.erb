@@ -21,6 +21,7 @@
   </head>
 
   <body class="<%= page_classes %>">
+    <?php include_once("assets/php/analyticstracking.php") ?>
     <%= partial "partials/modals/works-list-modal" %>
     <%= partial "partials/modals/curriculum-modal" %>
     <%= yield %>

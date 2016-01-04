@@ -8,6 +8,7 @@
     }
     &:focus{
       color: $main-color;
+      background-color: transparent;
     }
   }
 }
