@@ -1,7 +1,10 @@
 .cv-section{
+  &__head{
+    position: relative;
+  }
   @at-root #{&}__icon{
     @extend .cd-timeline__icon;
-    margin-left: 0;
+    left: 0;
   }
   @at-root #{&}__label{
     @include border(1px, #dddddd, bottom);
