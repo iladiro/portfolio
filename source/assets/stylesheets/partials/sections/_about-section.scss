@@ -1,3 +1,9 @@
 .about{
   background-color: #ffffff;
+  .section-title{
+    @include respond-to(max-width, 768px) {
+      margin: 60px 0 30px;
+      font-size: 30px;
+    }
+  }
 }

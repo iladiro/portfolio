@@ -1,7 +1,7 @@
 .main-nav{
   .main-nav__link{
     text-transform: uppercase;
-    @include font-face(18px, #ffffff);
+    @include font-style(18px, #ffffff);
     @include transition(color 0.2s linear);
     &:hover{
       color: $main-color;
@@ -10,5 +10,12 @@
       color: $main-color;
       background-color: transparent;
     }
+    @include respond-to(max-width, 768px) {
+      color: $main-color;
+      text-align: center;
+    }
+  }
+  @include respond-to(max-width, 768px) {
+    background-color: white;
   }
 }

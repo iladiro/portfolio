@@ -17,33 +17,29 @@
     }
   }
   .hover-mask{
-    position:absolute;
+    @include position(left, 0, top, 0);
     padding:0;
     @include size(100%, 100%);
-    top:0;
-    left:0;
-    background: $second-color;
+    background: $secondary-color;
     @include opacity(0);
     @include transition(all 0.3s ease-out);
     .item__info{
       margin-top: 23%;
     }
     .item__title{
-      @include font-face(17px, #ffffff);
+      @include font-style(17px, #ffffff);
       margin-top: 0;
       i{
         margin-top: 5px;
       }
     }
     &:after{
-      position: absolute;
-      top: 0;
-      left: 0;
+      @include position(left, 0, top, 0);
       content: "";
       @include size(100%, 100%);
       @include opacity(0.8);
       background: transparent;
-      @include solid-border(0px, rgba(255,255,255,0.2));
+      @include border(0px, rgba(255,255,255,0.2));
       @include transition(border 0.3s ease-out);
     }
     &:hover{

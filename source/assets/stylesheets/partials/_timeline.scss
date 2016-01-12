@@ -1,7 +1,10 @@
 .cd-timeline-col{
-  border-left: 5px dotted #a5a5ad;
+  @include border(5px, #a5a5ad, left, dotted);
   &.padding{
     padding-top: 85px;
     padding-bottom: 80px;
+  }
+  @include respond-to(max-width, 768px) {
+    border-left: 0;
   }
 }

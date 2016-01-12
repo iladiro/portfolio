@@ -7,7 +7,7 @@
     border-radius: 0;
     p{
       @include spaces(18px 0px 12px 0px, 0);
-      @include font-face(38px, $main-color);
+      @include font-style(38px, $main-color);
       line-height: 48px;
       span{
         font-weight: 500;

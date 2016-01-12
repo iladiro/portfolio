@@ -4,7 +4,7 @@
     color: white;
   }
   .contact-info{
-    @include font-face(19px, #ffffff);
+    @include font-style(19px, #ffffff);
     margin-bottom: 30px;
   }
 }

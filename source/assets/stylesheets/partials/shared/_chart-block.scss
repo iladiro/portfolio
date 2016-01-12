@@ -5,17 +5,15 @@
     margin: 0 auto 50px;
     .chart__percentage{
       line-height: 170px;
-      @include font-face(35px, #ffffff);
+      @include font-style(35px, #ffffff);
     }
     canvas{
-      position: absolute;
-      top: 0;
-      left: 0;
+      @include position(left, 0, top, 0);
     }
   }
   &__label{
     text-transform: uppercase;
-    @include font-face(24px, #ffffff);
+    @include font-style(24px, #ffffff);
     margin: 0 0 90px;
   }
 }

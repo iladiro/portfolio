@@ -15,11 +15,11 @@
           margin-bottom: 30px;
         }
         .modal-body__title{
-          @include font-face(24px, $main-color);
+          @include font-style(24px, $main-color);
           margin-top: 0;
         }
         .modal-body__description{
-          @include font-face(19px, #6D6D85);
+          @include font-style(19px, #6D6D85);
           margin-bottom: 40px;
         }
       }

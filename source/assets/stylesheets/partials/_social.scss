@@ -7,7 +7,7 @@
   .social__link{
     display: inline-block;
     border-radius: 50%;
-    @include solid-border(1px, #dddddd);
+    @include border(1px, #dddddd);
     @include size(50px, 50px);
     @include spaces(0, 0 5px 0 0);
     @include transition(all 0.2s linear);

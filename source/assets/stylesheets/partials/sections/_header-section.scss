@@ -4,7 +4,7 @@
   padding: 5px 0;
   &.scrolled{
     background-color: #ffffff;
-    @include solid-border(1px, #dddddd);
+    @include border(1px, #dddddd);
     padding: 20px 0;
     .main-nav{
       .main-nav__link{
@@ -18,7 +18,7 @@
           // color: #000000;
         }
         &.active{
-          color: $second-color;
+          color: $secondary-color;
         }
       }
     }
