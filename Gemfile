@@ -6,7 +6,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby, :x64_mingw]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw, :x64_mingw]
 
 gem 'middleman-livereload', '~> 3.4', '>= 3.4.6'
-gem 'middleman-sprockets', '4.0.0.rc.3'
+gem 'middleman-sprockets', '~> 4.1', '>= 4.1.1'
 
 # Bootstrap
 gem "bootstrap-sass", :require => false
