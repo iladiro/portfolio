@@ -1,0 +1,28 @@
+<!-- Curriculum Modal -->
+<div id="curriculum" class="modal customized-modal fade" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header clearfix">
+        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <%= partial('partials/modals/curriculum_sections/training') %>
+        <%= partial('partials/modals/curriculum_sections/works-experience') %>
+        <%= partial('partials/modals/curriculum_sections/personal-projects') %>
+        <%= partial('partials/modals/curriculum_sections/skills') %>
+        <div class="text-center">
+          <%= partial('partials/shared/button-block',
+              locals: {
+                link: 'assets/pdf/cv-IlariaDiRosa.pdf',
+                classes: 'btn-lg text-uppercase button-block',
+                icon: 'fa fa-download',
+                text_link: 'Download CV'
+              }
+            )
+          %>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

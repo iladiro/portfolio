@@ -1,0 +1,38 @@
+<% form_tag '#', id: 'contact-form', method: 'post' do %>
+  <% field_set_tag do %>
+    <div class="input-group">
+      <span class="input-group-addon">
+        <i class="fa fa-user fa-2x"></i>
+      </span>
+      <%= text_field_tag :username, placeholder: 'Your name is', class: 'form-control input-lg requiredField', value: '' %>
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-addon">
+        <i class="fa fa-envelope fa-2x"></i>
+      </span>
+      <%= email_field_tag :email, placeholder: 'Your email is', class: 'form-control input-lg requiredField', value: '' %>
+    </div>
+
+    <div class="input-group">
+      <span class="input-group-addon">
+        <i class="fa fa-comment fa-2x"></i>
+      </span>
+      <%= text_field_tag :note, placeholder: 'I wanna talk about', class: 'form-control input-lg requiredField', value: '' %>
+    </div>
+
+  <% end %>
+
+  <% field_set_tag(class: 'buttons') do %>
+    <%= partial('partials/shared/button-block',
+        locals: {
+          link: '#',
+          classes: 'btn-lg text-uppercase button-block',
+          icon: 'fa fa-paper-plane',
+          text_link: 'Send message'
+        }
+      )
+    %>
+  <% end %>
+
+<% end %>

@@ -1,0 +1,47 @@
+.cd-timeline {
+  position: relative;
+  @at-root #{&}__icon{
+    text-align: center;
+    @include font-style(25px, #ffffff);
+    @include position(left, -47px, top, 0);
+    background-color: $main-color;
+    z-index: 100;
+    border-radius: 50%;
+    @include size(60px, 60px);
+    line-height: 60px;
+  }
+  @at-root #{&}__content{
+    padding: 20px 20px 20px 30px;
+  }
+  @at-root #{&}__title{
+    margin-top: 0;
+    @include font-style(24px, $main-color);
+  }
+  @at-root #{&}__subtitle{
+    @include font-style(24px, #6D6D85);
+    font-weight: 300;
+    margin-top: 0;
+  }
+  @at-root #{&}__description{
+    @include font-style(19px, #6D6D85);
+    font-weight: 300;
+  }
+  @at-root #{&}__link{
+    @include font-style(19px, $main-color);
+    font-weight: 400;
+    @include transition(color 0.3s ease-out);
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    &:hover{
+      color: lighten($main-color, 20%);
+      text-decoration: none;
+    }
+    &:focus{
+      outline: none;
+    }
+  }
+  @include respond-to(max-width, 768px) {
+    margin-left: 35px;
+  }
+}

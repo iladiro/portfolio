@@ -1,0 +1,21 @@
+.social{
+  display: table;
+  margin: 10px auto;
+  .social__item{
+    float: left;
+  }
+  .social__link{
+    display: inline-block;
+    border-radius: 50%;
+    @include border(1px, #dddddd);
+    @include size(50px, 50px);
+    @include spaces(0, 0 5px 0 0);
+    @include transition(all 0.2s linear);
+    line-height: 50px;
+    text-align: center;
+    color: #000000;
+    &:hover{
+      color: $main-color;
+    }
+  }
+}

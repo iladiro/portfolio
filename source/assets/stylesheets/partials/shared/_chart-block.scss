@@ -1,0 +1,19 @@
+.chart{
+  .chart__container{
+    position: relative;
+    @include size(170px, 170px);
+    margin: 0 auto 50px;
+    .chart__percentage{
+      line-height: 170px;
+      @include font-style(35px, #ffffff);
+    }
+    canvas{
+      @include position(left, 0, top, 0);
+    }
+  }
+  &__label{
+    text-transform: uppercase;
+    @include font-style(24px, #ffffff);
+    margin: 0 0 90px;
+  }
+}

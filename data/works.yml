@@ -1,0 +1,55 @@
+prj:
+  bracco:
+    title: "Bracco"
+    description: "Tool che permette la gestione dei tickets di lavoro."
+    technologies:
+      - Angular
+      - Bootstrap 4
+      - scss
+      - Git
+      - Font awesome
+      - PostgreSQL
+      - PostgREST
+  kidstore:
+    title: "KidStore - Ecommerce Template"
+    description: "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman."
+    technologies:
+      - HTML5
+      - CSS3
+      - SASS
+      - Javascript
+      - Jquery
+      - Middleman
+      - Bootstrap 3
+  socialsharing:
+    title: "SocialSharing"
+    description: "SocialSharing is a utility to help you to generate the mark up of a different social platform."
+    technologies:
+      - HTML5
+      - CSS3
+      - SASS
+      - Javascript
+      - Jquery
+      - Middleman
+      - Bourbon
+      - Neat
+  zinkroo:
+    title: "Zinkroo"
+    description: "SPA per la sincronizzazione grafica di presentazioni video e slides."
+    technologies:
+      - Bootstrap
+      - Sass (scss)
+      - Mithril hyperscript
+      - Jquery
+      - Photoshop
+      - Git
+      - Trello
+  clouderma:
+    title: "Clouderma"
+    description: "E' una community dedicata ai professionisti della dermatite."
+    technologies:
+      - Middleman
+      - Bootstrap
+      - Sass (scss)
+      - Git
+      - Trello

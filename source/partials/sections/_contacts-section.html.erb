@@ -1,0 +1,28 @@
+<!-- Contacts Section -->
+<section id="contacts-section" data-highlight="#contact-tab">
+  <a id="contact-link"></a>
+  <div class="container">
+    <%= partial('partials/shared/title-block',
+        locals: {
+          icon: nil,
+          title: 'Contact me'
+        }
+      )
+    %>
+    <section class="row">
+      <article class="col-sm-12 col-md-6 contact-info fadeInLeft wow">
+        Hi, I am Ilaria!<br>
+        I am a junior front-end developer based in Milan, passionate about web
+        technologies.<br>
+        I love to write clear and clean code.<br>
+        I try to improve myself everyday, learning by others as well.<br>
+        If you need any info, write me by this form or send me an email at
+        dirosa.ilaria@gmail.com
+      </article>
+      <article class="col-sm-12 col-md-6 fadeInRight wow">
+        <%= partial 'partials/contact-form' %>
+      </article>
+    </section>
+  </div>
+</section>
+<!-- End -->

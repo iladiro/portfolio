@@ -1,0 +1,10 @@
+#contacts-section{
+  margin-bottom: 100px;
+  .section-title{
+    color: white;
+  }
+  .contact-info{
+    @include font-style(19px, #ffffff);
+    margin-bottom: 30px;
+  }
+}

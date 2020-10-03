@@ -1,0 +1,44 @@
+<!-- Work Modal -->
+<div id="<%= id %>" class="modal fade customized-modal" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header clearfix">
+        <button type="button" class="close modal-header__button" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6 modal-body__image">
+            <%= image_tag image, class: 'img-rounded img-responsive', alt: alt_text %>
+          </div>
+          <div class="col-md-6">
+            <h3 class="modal-body__title text-uppercase">
+              <%= title %>
+            </h3>
+            <div class="modal-body__description">
+              <p>
+                <%= description %><br><br>
+              </p>
+              <h4>Technologies used:</h4>
+              <ul>
+                <% tech_list.each do |tech| %>
+                  <li><%= tech %></li>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <%= partial('partials/shared/button-block',
+              locals: {
+                link: link,
+                classes: 'btn-lg text-uppercase button-block',
+                icon: 'fa fa-external-link',
+                text_link: 'view website'
+              }
+            )
+          %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

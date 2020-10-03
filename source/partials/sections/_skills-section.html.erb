@@ -1,0 +1,45 @@
+<!-- Skills Section -->
+<section id="skills-section" data-highlight="#skills-tab">
+  <a id="skills-link"></a>
+  <div class="container">
+    <div class="row">
+      <article class="col-sm-6 col-md-3 text-center">
+        <%= partial('partials/shared/chart-block',
+          locals: {
+            percentage_text: '90',
+            skill_name: 'html4/5'
+            }
+          )
+        %>
+      </article>
+      <article class="col-sm-6 col-md-3 text-center">
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '80',
+              skill_name: 'css2/3'
+            }
+          )
+        %>
+      </article>
+      <article class="col-sm-6 col-md-3 text-center">
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '60',
+              skill_name: 'Angular > 2'
+            }
+          )
+        %>
+      </article>
+      <article class="col-sm-6 col-md-3 text-center">
+        <%= partial('partials/shared/chart-block',
+            locals: {
+              percentage_text: '75',
+              skill_name: 'SASS'
+            }
+          ) 
+        %>
+      </article>
+    </div>
+  </div>
+</section>
+<!-- End -->

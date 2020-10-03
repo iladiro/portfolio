@@ -1,0 +1,97 @@
+prj:
+  education_training:
+    -
+      label: "From March 2015 to July 2015"
+      title: "ESOL course"
+      description: "I attended an ESOL course in Manchester"
+    -
+      label: "From September 2007 to June 2008"
+      title: "Dynamic site course"
+      description: ""
+    -
+      label: "From September 2002 to July 2007"
+      title: "High school"
+      description: "High school leaving qualification in Multimedia Communication at ITSOS Milan"
+  works_experience:
+    -
+      label: "From November 2017 to January 2020"
+      title: "Subcom - Wind"
+      description: "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components."
+    -
+      label: "From May 2016 to March 2017"
+      title: "Axenso"
+      description: "I worked at Axenso as freelancer. My duty was to build websites interface  and web applications."
+    -
+      label: "From January 2015 to June 2016"
+      title: "Freelance"
+      description: "I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school."
+    -
+      label: "From January 2010 to December 2014"
+      title: "ContactLab"
+      description: "Employee at ContactLab (Digital direct email marketing) as HTML Developer."
+    -
+      label: "From January 2007 to December 2009"
+      title: "PrimaPagina"
+      description: "Employee at PrimaPagina as HTML Developer."
+  personal_projects:
+    - 
+      label: "Bracco"
+      "title": "Tool"
+      "description": "Tool that allows the management of work tickets."
+    - 
+      label: "Social sharing"
+      "title": "Tool"
+      "description": "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest)."
+    - 
+      label: "Counter & Countdown"
+      "title": "Plugin"
+      "description": "Pure JavaScript plugin"
+  skills:
+    -
+      label: "Languages:"
+      title:
+      description: "English"
+    -
+      label: "OS:"
+      title:
+      description: "MacOsx, Windows, Linux"
+    -
+      label: "Programming languages:"
+      title:
+      description: "HTML 4/5, CSS 2/3, JavaScript, Typescript"
+    -
+      label: "Ruby Framework:"
+      title:
+      description: "Middleman"
+    -
+      label: "Javascript Framework:"
+      title:
+      description: "Angular > 2"
+    -
+      label: "Html framework:"
+      title:
+      description: "Bootstrap"
+    -
+      label: "Css framework:"
+      title:
+      description: "Bourbon"
+    -
+      label: "Javascript libraries:"
+      title:
+      description: "Jquery"
+    -
+      label: "Preprocessors:"
+      title:
+      description: "SASS, LESS"
+    -
+      label: "Versioning tools:"
+      title:
+      description: "Git"
+    -
+      label: "Web Server:"
+      title:
+      description: "PostgREST"
+    -
+      label: "Database management system:"
+      title:
+      description: "PostgreSQL"

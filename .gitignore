@@ -1,0 +1,13 @@
+# Ignore bundler config
+.bundle
+
+# Ignore cache
+.cache
+.DS_Store
+.sass-cache
+
+# Ignore the build directory
+build/
+
+# Ignore artwork folder
+/source/assets/artwork

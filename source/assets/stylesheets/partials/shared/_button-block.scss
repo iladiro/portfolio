@@ -1,0 +1,15 @@
+.button-block{
+  background-color: $main-color;
+  border-radius: 0;
+  border: 0;
+  color: white;
+  font-weight: 300;
+  @include transition(all 0.3s ease-out);
+  &:hover{
+    background-color: darken($main-color, 15%);
+    color: white;
+  }
+  &:focus{
+    color: white;
+  }
+}
