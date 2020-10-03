@@ -42,8 +42,30 @@
               icon: 'fa fa-file-text-o',
               title: data.about.prj.item_seven.title,
               subtitle: data.about.prj.item_seven.subtitle,
+              description: data.about.prj.item_seven.description,
+              text_link: nil,
+              data_target: nil
+            }
+          )
+        %>        
+        <%= partial('partials/shared/timeline-block',
+            locals: {
+              icon: 'fa fa-file-text-o',
+              title: data.about.prj.item_eight.title,
+              subtitle: data.about.prj.item_eight.subtitle,
+              description: data.about.prj.item_eight.description,
+              text_link: nil,
+              data_target: nil
+            }
+          )
+        %>
+        <%= partial('partials/shared/timeline-block',
+            locals: {
+              icon: 'fa fa-file-text-o',
+              title: data.about.prj.item_nine.title,
+              subtitle: data.about.prj.item_nine.subtitle,
               description: nil,
-              text_link: data.about.prj.item_seven.text_link,
+              text_link: data.about.prj.item_nine.text_link,
               data_target: '#curriculum'
             }
           )

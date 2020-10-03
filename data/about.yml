@@ -15,18 +15,26 @@ prj:
   # end
   #page: about-me-down-section
   item_four:
-    title: "From January 2015"
-    subtitle: "Freelance"
-    description: "From January 2015 I am living in Manchester, to do practice with English Language. I am attending English school. I worked for BootstrapBay, I built a ecommerce template called KidStore."
+    title: "From November 2017 to January 2020"
+    subtitle: "Subcom - Wind"
+    description: "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components."
   item_five:
+    title: "From June 2016 to March 2017"
+    subtitle: "Axenso"
+    description: "I worked at Axenso as freelancer. My duty was to build websites interface  and web applications."
+  item_six:
+    title: "From January 2015 to May 2016"
+    subtitle: "Freelancer"
+    description: "I lived in Manchester from January 2015 to June 2016, to do practice with English Language. I attended English school."
+  item_seven:
     title: "From 2009 to 2014"
     subtitle: "Contactlab"
     description: "I worked at ContactLab (Digital direct email marketing) as HTML Developer. I built, tested and deployed email templates. My duty was to build Responsive landing pages and Survey forms as well."
-  item_six:
-    title: "From 2007 to 2010"
+  item_eight:
+    title: "From 2007 to 2009"
     subtitle: "PrimaPagina"
     description: "My first work's experience has been at Prima Pagina. My duty and responsibility was to build, test and release newsletters."
-  item_seven:
+  item_nine:
     title: "View my curriculum..."
     subtitle: "...and download it"
     description: "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa."

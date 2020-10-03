@@ -8,6 +8,7 @@
     .section-title{
       position: relative;
       z-index: 1;
+      margin-bottom: 0;
       @include font-style(48px, $main-color);
       span{
         font-size: 150%;
