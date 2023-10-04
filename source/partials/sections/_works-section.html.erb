@@ -11,94 +11,19 @@
   <div class="works-contents">
     <div class="container">
       <div class="row">
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Slider',
-                image_item: image_path("slider.png"),
-                title_item: 'Slider',
-                id_item: '#slider-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Countdown',
-                image_item: image_path("countdown.png"),
-                title_item: 'Countdown',
-                id_item: '#countdown-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Il Crochet di Ili',
-                image_item: image_path("ilCrochetDili.png"),
-                title_item: 'Il Crochet di Ili',
-                id_item: '#ilcrochetdili-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Zinkroo',
-                image_item: image_path("zinkroo.jpg"),
-                title_item: 'Zinkroo',
-                id_item: '#zinkroo-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'SocialSharing',
-                image_item: image_path("socialSharing.jpg"),
-                title_item: 'SocialSharing',
-                id_item: '#socialsharing-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Bracco',
-                image_item: image_path("bracco.jpg"),
-                title_item: 'Bracco',
-                id_item: '#bracco-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'KidStore',
-                image_item: image_path("kidStore.jpg"),
-                title_item: 'Ecommerce store',
-                id_item: '#kidstore-modal'
-              }
-            )
-          %>
-        </article>
-        <article class="col-md-4">
-          <%= partial('partials/shared/work-block',
-              locals: {
-                alt_text: 'Clouderma',
-                image_item: image_path("clouderma.jpg"),
-                title_item: 'Clouderma',
-                id_item: '#clouderma-modal'
-              }
-            )
-          %>
-        </article>
+        <% data.works.list.each do |item| %>
+          <article class="col-md-4">
+            <%= partial('partials/shared/work-block',
+                locals: {
+                  alt_text: item.alt_text,
+                  image_item: image_path(item.image),
+                  title_item: item.title,
+                  id_item: item.id
+                }
+              )
+            %>
+          </article>
+        <% end %>
       </div>
     </div>
   </div>

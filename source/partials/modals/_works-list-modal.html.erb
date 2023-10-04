@@ -2,7 +2,7 @@
 <% data.works.list.each do |item| %>
   <%= partial('partials/modals/work-modal',
     locals: {
-      id: 'ilcrochetdili-modal',
+      id: item.id,
       tech_list: item.technologies,
       title: item.title,
       image: image_path(item.image),
@@ -12,81 +12,3 @@
     })
   %>
 <% end %>
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'ilcrochetdili-modal',
-      tech_list: data.works.prj.ilcrochetdili.technologies,
-      title: data.works.prj.ilcrochetdili.title,
-      image: image_path('ilCrochetDili.jpg'),
-      description: data.works.prj.ilcrochetdili.description,
-      link: 'https://ilcrochetdili.netlify.app/',
-      alt_text: 'ilcrochetdili'
-    }
-  )
-%>
-
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'bracco-modal',
-      tech_list: data.works.prj.bracco.technologies,
-      title: data.works.prj.bracco.title,
-      image: image_path('bracco.jpg'),
-      description: data.works.prj.bracco.description,
-      link: nil,
-      alt_text: 'bracco'
-    }
-  )
-%>
-
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'zinkroo-modal',
-      tech_list: data.works.prj.zinkroo.technologies,
-      title: data.works.prj.zinkroo.title,
-      image: image_path('zinkroo.jpg'),
-      description: data.works.prj.zinkroo.description,
-      link: 'http://www.zinkroo.com/',
-      alt_text: 'zinkroo'
-    }
-  )
-%>
-
-
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'kidstore-modal',
-      tech_list: data.works.prj.kidstore.technologies,
-      title: data.works.prj.kidstore.title,
-      image: image_path('kidStore.jpg'),
-      description: data.works.prj.kidstore.description,
-      link: 'http://ilariadirosa.it/kidstore/',
-      alt_text: 'kidstore'
-    }
-  )
-%>
-
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'socialsharing-modal',
-      tech_list: data.works.prj.socialsharing.technologies,
-      title: data.works.prj.socialsharing.title,
-      image: image_path('socialSharing.jpg'),
-      description: data.works.prj.socialsharing.description,
-      link: 'http://ilariadirosa.it/social-sharing/',
-      alt_text: 'socialsharing'
-    }
-  )
-%>
-
-<%= partial('partials/modals/work-modal',
-    locals: {
-      id: 'clouderma-modal',
-      tech_list: data.works.prj.clouderma.technologies,
-      title: data.works.prj.clouderma.title,
-      image: image_path('clouderma.jpg'),
-      description: data.works.prj.clouderma.description,
-      link: 'https://clouderma.com/',
-      alt_text: 'clouderma'
-    }
-  )
-%>

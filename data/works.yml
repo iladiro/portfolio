@@ -1,5 +1,6 @@
 list:
   - ilcrochetdili:
+      id: "ilcrochetdili-modal"
       title: "Il Crochet di Ili"
       link: "https://ilcrochetdili.netlify.app/"
       alt_text: "Il Crochet di Ili"
@@ -12,6 +13,7 @@ list:
         - Git
         - css
   - bracco:
+      id: "bracco-modal"
       title: "Bracco"
       link: nil
       alt_text: "Bracco"
@@ -26,6 +28,7 @@ list:
         - PostgreSQL
         - PostgREST
   - kidstore:
+      id: "kidstore-modal" 
       title: "KidStore - Ecommerce Template"
       link: "http://ilariadirosa.it/kidstore/"
       image: "kidStore.jpg"
@@ -39,8 +42,34 @@ list:
         - Jquery
         - Middleman
         - Bootstrap 3
-  - socialsharing:
-      title: "SocialSharing"
+  - countdownjs:
+      id: "countdown-modal"
+      title: "Countdown pure Js"
+      link: "https://github.com/iladiro/counter"
+      alt_text: "countdown"
+      image: "countdown.jpg"
+      description: "Pure JavaScript plugin"
+      technologies:
+        - HTML5
+        - CSS3
+        - SASS
+        - Javascript
+  - countdownangular:
+      id: "countdown-angular-modal"
+      title: "Countdown Angular 15"
+      link: "https://github.com/iladiro/Counter--Angular"
+      alt_text: "countdown"
+      image: "countdown.jpg"
+      description: "It is a configurable countdown"
+      technologies:
+        - Angular 15
+        - HTML5
+        - SASS
+        - Javascript
+        - Typescript
+  - socialsharingjs:
+      id: "socialSharing-modal"
+      title: "Social sharing pure javascript"
       link: "http://ilariadirosa.it/social-sharing/"
       alt_text: "SocialSharing"
       image: "socialSharing.jpg"
@@ -54,7 +83,34 @@ list:
         - Middleman
         - Bourbon
         - Neat
+  - socialsharingangular:
+      id: "socialSharing-angular-modal"
+      title: "Social sharing Angular 4"
+      link: "https://github.com/iladiro/SocialSharing---Angular4"
+      alt_text: "SocialSharing"
+      image: "socialSharing.jpg"
+      description: "SocialSharing is a utility to help you to generate the mark up of a different social platform."
+      technologies:
+        - HTML5
+        - SASS
+        - Angular 4
+        - Typescript
+        - Javascript
+  - sliderangular:
+      id: "slider-angular-modal"
+      title: "Slider Angular 15"
+      link: "https://github.com/iladiro/slider"
+      alt_text: "slider"
+      image: "slider.jpg"
+      description: "Angular Library"
+      technologies:
+        - HTML5
+        - SASS
+        - Angular 15
+        - Typescript
+        - Javascript
   - zinkroo:
+      id: "zinkroo-modal"
       title: "Zinkroo"
       link: "http://www.zinkroo.com/"
       alt_text: "zinkroo"
@@ -69,6 +125,7 @@ list:
         - Git
         - Trello
   - clouderma:
+      id: "clouderma-modal"
       title: "Clouderma"
       link: "https://clouderma.com/"
       alt_text: "Clouderma"
