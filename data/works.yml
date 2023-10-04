@@ -101,7 +101,7 @@ list:
       title: "Slider Angular 15"
       link: "https://github.com/iladiro/slider"
       alt_text: "slider"
-      image: "slider.jpg"
+      image: "slider.png"
       description: "Angular Library"
       technologies:
         - HTML5
