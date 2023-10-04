@@ -1,4 +1,13 @@
 prj:
+  ilcrochetdili:
+    title: "Il Crochet di Ili"
+    description: "Sito web vetrina realizzato in Svelte"
+    technologies:
+      - Svelte
+      - Tailwind
+      - Typescript
+      - Git
+      - css
   bracco:
     title: "Bracco"
     description: "Tool che permette la gestione dei tickets di lavoro."
