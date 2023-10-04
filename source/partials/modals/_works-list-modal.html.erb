@@ -1,3 +1,30 @@
+
+<% data.works.list.each do |item| %>
+  <%= partial('partials/modals/work-modal',
+    locals: {
+      id: 'ilcrochetdili-modal',
+      tech_list: item.technologies,
+      title: item.title,
+      image: image_path(item.image),
+      description: item.description,
+      link: item.link,
+      alt_text: item.alt_text
+    })
+  %>
+<% end %>
+<%= partial('partials/modals/work-modal',
+    locals: {
+      id: 'ilcrochetdili-modal',
+      tech_list: data.works.prj.ilcrochetdili.technologies,
+      title: data.works.prj.ilcrochetdili.title,
+      image: image_path('ilCrochetDili.jpg'),
+      description: data.works.prj.ilcrochetdili.description,
+      link: 'https://ilcrochetdili.netlify.app/',
+      alt_text: 'ilcrochetdili'
+    }
+  )
+%>
+
 <%= partial('partials/modals/work-modal',
     locals: {
       id: 'bracco-modal',

@@ -14,6 +14,28 @@
         <article class="col-md-4">
           <%= partial('partials/shared/work-block',
               locals: {
+                alt_text: 'Slider',
+                image_item: image_path("slider.png"),
+                title_item: 'Slider',
+                id_item: '#slider-modal'
+              }
+            )
+          %>
+        </article>
+        <article class="col-md-4">
+          <%= partial('partials/shared/work-block',
+              locals: {
+                alt_text: 'Countdown',
+                image_item: image_path("countdown.png"),
+                title_item: 'Countdown',
+                id_item: '#countdown-modal'
+              }
+            )
+          %>
+        </article>
+        <article class="col-md-4">
+          <%= partial('partials/shared/work-block',
+              locals: {
                 alt_text: 'Il Crochet di Ili',
                 image_item: image_path("ilCrochetDili.png"),
                 title_item: 'Il Crochet di Ili',

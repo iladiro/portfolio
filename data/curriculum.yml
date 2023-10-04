@@ -14,6 +14,14 @@ prj:
       description: "High school leaving qualification in Multimedia Communication at ITSOS Milan"
   works_experience:
     -
+      label: "From July 2023"
+      title: "Esis - Atum"
+      description: "I'm working for the Esis group as a consultant at Atum."
+    -
+      label: "From November 2021 to April 2023"
+      title: "K2 - Accenture"
+      description: "I worked at k2 consulting group as Accenture consultant. I collaborated with two different working groups."
+    -
       label: "From November 2017 to January 2020"
       title: "Subcom - Wind"
       description: "I worked at Subcom as Wind consultant. My duty was to build new website Wind components and do maintenance on existing components."
@@ -35,17 +43,40 @@ prj:
       description: "Employee at PrimaPagina as HTML Developer."
   personal_projects:
     - 
+      label: "Il Crochet di Ili"
+      title: "Web site"
+      description: "It is a personal web site"
+      github: "https://github.com/iladiro/ilcrochetdili"
+    - 
       label: "Bracco"
-      "title": "Tool"
-      "description": "Tool that allows the management of work tickets."
+      title: "Tool"
+      description: "Tool that allows the management of work tickets."
+      github: "https://github.com/iladiro/bracco2.0"
     - 
-      label: "Social sharing"
-      "title": "Tool"
-      "description": "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest)."
+      label: "Social sharing pure javascript"
+      title: "Tool"
+      description: "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest)."
+      github: "https://github.com/iladiro/social-sharing"
     - 
-      label: "Counter & Countdown"
-      "title": "Plugin"
-      "description": "Pure JavaScript plugin"
+      label: "Social sharing Angular 4"
+      title: "Tool"
+      description: "Share link generator for the various social networks (Facebook, Twitter, linkedin, Google Plus, Pinterest)."
+      github: "https://github.com/iladiro/SocialSharing---Angular4"
+    - 
+      label: "Countdown pure Js"
+      title: "Plugin"
+      description: "Pure JavaScript plugin"
+      github: "https://github.com/iladiro/counter"
+    - 
+      label: "Countdown Angular 15"
+      title: "Angular Library"
+      description: "It is a configurable countdown"
+      github: "https://github.com/iladiro/Counter--Angular"
+    - 
+      label: "Slider Angular 15"
+      title: "Angular Library"
+      description: "It is an Angular library"
+      github: "https://github.com/iladiro/slider"
   skills:
     -
       label: "Languages:"
@@ -66,7 +97,7 @@ prj:
     -
       label: "Javascript Framework:"
       title:
-      description: "Angular > 2"
+      description: "Angular > 2, Vue 3, Svelte"
     -
       label: "Html framework:"
       title:
@@ -74,7 +105,7 @@ prj:
     -
       label: "Css framework:"
       title:
-      description: "Bourbon"
+      description: "Bourbon, Tailwind"
     -
       label: "Javascript libraries:"
       title:

@@ -1,64 +1,82 @@
-prj:
-  ilcrochetdili:
-    title: "Il Crochet di Ili"
-    description: "Sito web vetrina realizzato in Svelte"
-    technologies:
-      - Svelte
-      - Tailwind
-      - Typescript
-      - Git
-      - css
-  bracco:
-    title: "Bracco"
-    description: "Tool che permette la gestione dei tickets di lavoro."
-    technologies:
-      - Angular
-      - Bootstrap 4
-      - scss
-      - Git
-      - Font awesome
-      - PostgreSQL
-      - PostgREST
-  kidstore:
-    title: "KidStore - Ecommerce Template"
-    description: "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman."
-    technologies:
-      - HTML5
-      - CSS3
-      - SASS
-      - Javascript
-      - Jquery
-      - Middleman
-      - Bootstrap 3
-  socialsharing:
-    title: "SocialSharing"
-    description: "SocialSharing is a utility to help you to generate the mark up of a different social platform."
-    technologies:
-      - HTML5
-      - CSS3
-      - SASS
-      - Javascript
-      - Jquery
-      - Middleman
-      - Bourbon
-      - Neat
-  zinkroo:
-    title: "Zinkroo"
-    description: "SPA per la sincronizzazione grafica di presentazioni video e slides."
-    technologies:
-      - Bootstrap
-      - Sass (scss)
-      - Mithril hyperscript
-      - Jquery
-      - Photoshop
-      - Git
-      - Trello
-  clouderma:
-    title: "Clouderma"
-    description: "E' una community dedicata ai professionisti della dermatite."
-    technologies:
-      - Middleman
-      - Bootstrap
-      - Sass (scss)
-      - Git
-      - Trello
+list:
+  - ilcrochetdili:
+      title: "Il Crochet di Ili"
+      link: "https://ilcrochetdili.netlify.app/"
+      alt_text: "Il Crochet di Ili"
+      image: "ilCrochetDili.jpg"
+      description: "Sito web vetrina realizzato in Svelte"
+      technologies:
+        - Svelte
+        - Tailwind
+        - Typescript
+        - Git
+        - css
+  - bracco:
+      title: "Bracco"
+      link: nil
+      alt_text: "Bracco"
+      image: "bracco.jpg"
+      description: "Tool che permette la gestione dei tickets di lavoro."
+      technologies:
+        - Angular
+        - Bootstrap 4
+        - scss
+        - Git
+        - Font awesome
+        - PostgreSQL
+        - PostgREST
+  - kidstore:
+      title: "KidStore - Ecommerce Template"
+      link: "http://ilariadirosa.it/kidstore/"
+      image: "kidStore.jpg"
+      alt_text: "kidstore"
+      description: "Kids Store is a E-Commerce Bootstrap Template built on Bootstrap version 3.3.4., Sass and Middleman."
+      technologies:
+        - HTML5
+        - CSS3
+        - SASS
+        - Javascript
+        - Jquery
+        - Middleman
+        - Bootstrap 3
+  - socialsharing:
+      title: "SocialSharing"
+      link: "http://ilariadirosa.it/social-sharing/"
+      alt_text: "SocialSharing"
+      image: "socialSharing.jpg"
+      description: "SocialSharing is a utility to help you to generate the mark up of a different social platform."
+      technologies:
+        - HTML5
+        - CSS3
+        - SASS
+        - Javascript
+        - Jquery
+        - Middleman
+        - Bourbon
+        - Neat
+  - zinkroo:
+      title: "Zinkroo"
+      link: "http://www.zinkroo.com/"
+      alt_text: "zinkroo"
+      image: "zinkroo.jpg"
+      description: "SPA per la sincronizzazione grafica di presentazioni video e slides."
+      technologies:
+        - Bootstrap
+        - Sass (scss)
+        - Mithril hyperscript
+        - Jquery
+        - Photoshop
+        - Git
+        - Trello
+  - clouderma:
+      title: "Clouderma"
+      link: "https://clouderma.com/"
+      alt_text: "Clouderma"
+      image: "clouderma.jpg"
+      description: "E' una community dedicata ai professionisti della dermatite."
+      technologies:
+        - Middleman
+        - Bootstrap
+        - Sass (scss)
+        - Git
+        - Trello
